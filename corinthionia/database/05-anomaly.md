@@ -2,16 +2,21 @@
 
 잘못된 테이블 설계로 인해 발생하는 Anomaly (이상 현상)
 
+<br/>
+
 ### 릴레이션 정규화
 
 - 부주의한 데이터베이스 설계는 제어할 수 없는 데이터 중복을 야기하여 여러 가지 갱신 이상(Update anomaly)을 유발한다
 - **정규화(Normalizaion)** 는 주어진 릴레이션 스키마를 함수적 종속성과 기본 키를 기반으로 분석하여 원래의 릴레이션을 분해함으로써 중복과 갱신 이상의 세 가지 유형을 최소화한다
 
 <br/>
+<br/>
 
 ## 갱신 이상 (Update Anomaly)
 
 ex. {Student ID, Student Name, Department, Course ID, Course Name}
+
+<br/>
 
 ### 수정 이상 (Modification Anomaly)
 
@@ -28,7 +33,11 @@ ex. {Student ID, Student Name, Department, Course ID, Course Name}
 - 유용한 정보를 함께 삭제하지 않고서는 정보 삭제가 불가능한 경우
 - ex. 어떤 과목의 수강생이 1명인데 이 학생에 대한 튜플을 삭제하면 해당 과목에 관한 정보도 릴레이션에서 삭제된다
 
+<br/>
+
 ---
+
+<br/>
 
 ## Reference
 
